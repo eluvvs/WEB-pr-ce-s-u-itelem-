@@ -1,24 +1,37 @@
 .container {
-    padding: 20px;
-    margin: 5px;
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr 150px;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 10px;
+
 }
 
 .head {
-    background-color: beige;
+    background-color: palegoldenrod;
+    grid-column: 1/5;
 }
 
 .menu {
-    background-color: beige;
+    background-color: palegreen;
 }
 
 .obsah {
-    background-color: beige;
+    display: grid;
+    background-color: paleturquoise;
+    grid-template-columns: 150px 1fr 150px;
+}
+
+.obsah-další {
+    background-color: lightpink;
+    grid-template-columns: 150px 1fr 150px;
 }
 
 .sidebar {
-    background-color: beige;
+    background-color: palevioletred;
 }
 
 .patička {
-    background-color: greenyellow;
+    background-color: aqua;
+    grid-column: 1/5;
 }
