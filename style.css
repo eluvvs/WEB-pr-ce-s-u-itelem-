@@ -1,0 +1,24 @@
+.container {
+    padding: 20px;
+    margin: 5px;
+}
+
+.head {
+    background-color: beige;
+}
+
+.menu {
+    background-color: beige;
+}
+
+.obsah {
+    background-color: beige;
+}
+
+.sidebar {
+    background-color: beige;
+}
+
+.patička {
+    background-color: greenyellow;
+}
